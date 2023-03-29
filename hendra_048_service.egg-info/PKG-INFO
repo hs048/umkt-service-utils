@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hendra-048-service
+Version: 0.2
+Summary: My package description
+Home-page: https://github.com/hs048/umkt-service-utils
+Author: hendra saputra
+Author-email: hs048@umkt.ac.id
+License: UNKNOWN
+Description: # Markdown supported!
+        
+        * Cheer
+        * Celebrate
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

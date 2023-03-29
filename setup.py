@@ -1,20 +1,19 @@
-import os
 from setuptools import setup
 
-here = os.path.abspath(os.path.dirname(__file__))
-README = open(os.path.join(here, 'README.rst')).read()
-
 setup(
-    name='umkt-service-utils',
-    version='0.1',
-    packages=['umkt_service_utils'],
-    description='A line of description',
-    long_description=README,
+    name='hendra-048-service',
+    version='0.2',
     author='hendra saputra',
     author_email='hs048@umkt.ac.id',
+    description='My package description',
+    long_description="""# Markdown supported!\n\n* Cheer\n* Celebrate\n""",
+    long_description_content_type='text/markdown',
     url='https://github.com/hs048/umkt-service-utils',
-    license='MIT',
+    packages=['service_utility'],
     install_requires=[
-        'Django>=1.6,<1.7',
-    ]
+        'django',
+        'djangorestframework',
+        'requests',
+        'PyJWT==1.7.1'
+    ],
 )

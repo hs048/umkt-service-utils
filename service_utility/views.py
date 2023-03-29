@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from rest_framework import serializers
 from django.contrib.auth.models import User, Group
-from umkt_service_utils.serializers import GroupSerializers
+from service_utility.serializers import GroupSerializers
 
 
 UTI = ['hs048','shs500','shw929','hendras']

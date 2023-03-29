@@ -1,5 +1,5 @@
 from django.urls import path
-from umkt_service_utils.views import *
+from service_utility.views import *
 
 urlpatterns = [
     path('', group_list),

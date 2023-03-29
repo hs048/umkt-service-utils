@@ -9,7 +9,7 @@ from django.db.models import Q
 from django.http import HttpResponse
 from rest_framework.exceptions import NotAuthenticated
 
-from umkt_service_utils.models import Lembaga
+from service_utility.models import Lembaga
 
 logger = logging.getLogger(__name__)
 
