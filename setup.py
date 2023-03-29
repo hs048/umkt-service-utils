@@ -10,9 +10,9 @@ setup(
     packages=['umkt_service_utils'],
     description='A line of description',
     long_description=README,
-    author='yourname',
-    author_email='yourname@example.com',
-    url='https://github.com/yourname/django-myapp/',
+    author='hendra saputra',
+    author_email='hs048@umkt.ac.id',
+    url='https://github.com/hs048/umkt-service-utils',
     license='MIT',
     install_requires=[
         'Django>=1.6,<1.7',
